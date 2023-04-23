@@ -1,4 +1,4 @@
-CFLAGS = -Isrc/include -Isrc/RMQ
+CFLAGS = -Isrc/include
 
 all: 
-		g++ $(CFLAGS) -O3 -fomit-frame-pointer -fprefetch-loop-arrays -DNDEBUG src/parser.cpp src/kmacs.cpp src/run.cpp src/sais.c src/RMQ/RMQ_succinct.cpp -o kmacs 
+		g++ $(CFLAGS) -O3 -fomit-frame-pointer -fprefetch-loop-arrays -DNDEBUG src/textParser.cpp src/KMACS.cpp src/runFile.cpp src/suffixArray.c -o kmacs
