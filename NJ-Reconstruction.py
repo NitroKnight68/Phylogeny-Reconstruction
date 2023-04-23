@@ -14,12 +14,11 @@ align = AlignIO.read(fileName,'fasta')
 calculator = DistanceCalculator('identity')
 
 # Reading from input matrix
-file = open("hardCodedDistance.txt", 'r')
+file = open("distanceMatrix.txt", 'r')
 readMatrix = []
 
 for row in file:
-    elements = []
-    readMatrix.append([x for x in row.split()[1:]])
+    readMatrix.append([x for x in row.split()])
 
 # Copying to DistanceMatrix object
 distMatrix = calculator.get_distance(align)
