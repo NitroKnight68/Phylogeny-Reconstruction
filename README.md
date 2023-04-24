@@ -25,3 +25,6 @@ python3 UPGMA-Reconstruction.py example3.fa
 - [Project Brief - Powerpoint Presentation](CSPE43-ADSA.pptx)
 - [Research Paper - ACS Approach to Phylogenetic Reconstruction](https://sci-hub.se/http://doi.org/10.1089/cmb.2006.13.336)
 - [Research Paper - Induced Sorting of Suffix & LPS Array](https://arxiv.org/pdf/1101.3448.pdf)
+## Future Development Ideas
+- Optimisation of current algorithm (or) implementation of new algorithm to reduce time complexity to linear time
+- Conversion of code into Rust language for better memory management and efficiency
