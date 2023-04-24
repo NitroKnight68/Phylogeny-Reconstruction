@@ -1,4 +1,4 @@
-#ifndef KMACS_H     // Prevents header from being included multiple times
+#ifndef KMACS_H // Prevents header from being included multiple times
 #define KMACS_H
 
 using namespace std;
@@ -15,6 +15,7 @@ using namespace std;
 #include <iomanip>
 #include <string.h>
 #include "suffixArray.h"
-void calcDmat(double** dmat, vector<string>& sequences, int k);
+
+void calcDmat(double **dmat, vector<string> &sequences, int k);
 
 #endif

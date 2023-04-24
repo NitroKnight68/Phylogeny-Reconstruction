@@ -13,8 +13,7 @@
 
 using namespace std;
 
-
-int parse (FILE *stream, vector<string>& taxa, vector<string>& sequences);
-int writeDmat(double** DMat, vector<string>& taxa);
+int parse(FILE *stream, vector<string> &taxa, vector<string> &sequences);
+int writeDmat(double **DMat, vector<string> &taxa);
 
 #endif
