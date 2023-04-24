@@ -22,6 +22,6 @@ python3 UPGMA-Reconstruction.py example2.fa
 python3 UPGMA-Reconstruction.py example3.fa
 ```
 ## Resources
-- [Powerpoint Presentation](CSPE43-ADSA.pptx)
-- [ACS Approach to Phylogenetic Reconstruction](https://sci-hub.se/http://doi.org/10.1089/cmb.2006.13.336)
-- [Induced Sorting of Suffix & LPS Array](https://arxiv.org/pdf/1101.3448.pdf)
+- [Project Brief - Powerpoint Presentation](CSPE43-ADSA.pptx)
+- [Research Paper - ACS Approach to Phylogenetic Reconstruction](https://sci-hub.se/http://doi.org/10.1089/cmb.2006.13.336)
+- [Research Paper - Induced Sorting of Suffix & LPS Array](https://arxiv.org/pdf/1101.3448.pdf)
